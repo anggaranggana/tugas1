@@ -1,4 +1,6 @@
+print('Menghitung luas lingakaran')
+print('==============================')
+r = int(input('masukan jari-jari lingkaran: '))
 phi = 3.14
-r = float(input("Masukkan panjang jari-jari lingkaran: "))
-luas = phi*r*r
-print("Luas lingkaran adalah : "+ str(luas))
+L = phi * (r * r)
+print('Luas lingkaran dengan jari-jari {} adalah {} cm ²'.format(r, L))
